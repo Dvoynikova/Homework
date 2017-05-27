@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Собираем оркестр</title>
+<style>
+	body {
+		color:#888;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 18pt;
+	}
+	h1 {
+		padding:10px;
+		margin-bottom: 0px;
+	}
+	.content {
+		width:700px;
+		margin:10px auto;
+	}
+	.task {
+		padding:10px;
+	}
+	form {
+		padding:20px;
+		width:100%;
+		border:1px solid #ddd;
+	}
+	select {
+		font-size: 20pt;
+	}
+	input[type="text"] {
+		padding:10px;
+		font-size: 18pt;
+		width:50px;
+	}
+	#check {
+		width:300px;
+		font-size: 20px;
+		height:60px;
+		margin:10px auto;
+	}
+</style>  
+</head>
+<body>
+	<div class="content">
+	<h1>Собираем оркестр</h1>
+	<div class="task">Выберите инструменты, которые будут ходить в оркестр</div>
+	<form>
+	Выберите оркестр:
+	<select id="orchestra">
+		<option value="symfony">Симфонический оркестр</option>
+	</select>
+	
+	<p>Струнная группа: </p>
+	
+
+	<p>
+	инструмент <input type="text" size="10"  value="Скрипка" readonly>,
+	количество <input type="number" min="0" name="num1"> </p>
+	
+	<p>
+	инструмент <input type="text" size="10" value="Виолончель" readonly>,
+	количество <input type="number" min="0" name="num2"> </p>
+	
+	<p>
+	инструмент <input type="text" size="10" value="Альт" readonly>,
+	количество <input type="number" min="0" name="num3"> </p>
+	
+	<p>
+	инструмент <input type="text" size="10" value="Контрабас" readonly >,
+	количество <input type="number" min="0" name="num4"> </p>
+	
+	<!-- <p><select id="Strings2">
+		<option value=""></option>
+		<option value="виолончель">Виолончель</option>
+		</select>
+	количество <input type="text" > </p>
+	<p><select id="Strings3">
+		<option value=""></option>
+		<option value="альт">Альт</option>
+	</select>
+	количество <input type="text" > </p>
+	<p><select id="Strings4">
+		<option value=""></option>
+		<option value="контрабас">Контрабас</option>
+	</select>
+	количество <input type="text" > </p> -->
+ 
+	
+	
+</form>
+<input type="submit" value="Отправить">
+<!-- <button id="check">Проверить!</button>
+
+<p>Результат:</p>
+
+<div id="result"><i>после нажатия на кнопку, появится тут</i></div>
+ -->
+</div>
+</body>
+</html>
