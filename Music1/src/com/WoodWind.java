@@ -1,6 +1,6 @@
 package com;
 
-public class WoodWind {
+public class WoodWind extends Orchestra {
 	
 	private int num5;
 	private int num6;

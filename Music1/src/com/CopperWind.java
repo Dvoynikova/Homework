@@ -1,6 +1,6 @@
 package com;
 
-public class CopperWind {
+public class CopperWind extends Orchestra {
 	
 	private int num10;
 	private int num11;

@@ -1,6 +1,6 @@
 package com;
 
-public class Brass {
+public class Brass extends Orchestra {
 	
 	private int num19;
 	private int num20;

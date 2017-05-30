@@ -1,6 +1,6 @@
 package com;
 
-public class Keyboards {
+public class Keyboards extends Orchestra {
 	private int num14;
 	private int num15;
 	private int num16;
